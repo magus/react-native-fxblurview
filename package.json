@@ -1,0 +1,29 @@
+{
+  "name": "react-native-fxblurview",
+  "version": "1.0.0",
+  "description": "react native ui component for controlled blur, based on popular FXBlurView library",
+  "main": "RCTFXBlurView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magus/react-native-fxblurview.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "blur",
+    "ui",
+    "gaussian",
+    "radius",
+    "native",
+    "ios"
+  ],
+  "author": "magus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magus/react-native-fxblurview/issues"
+  },
+  "homepage": "https://github.com/magus/react-native-fxblurview#readme"
+}
