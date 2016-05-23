@@ -12,6 +12,7 @@
 		4F01A1A11CF2EEBF004A7AAA /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F01A1A01CF2EEBF004A7AAA /* FXBlurView.m */; };
 		4F01A1A31CF2EFCD004A7AAA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F01A1A21CF2EFCD004A7AAA /* Accelerate.framework */; };
 		4F01A1A51CF2EFD4004A7AAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F01A1A41CF2EFD4004A7AAA /* QuartzCore.framework */; };
+		4F01A1D61CF2F374004A7AAA /* RCTFXBlurViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F01A1D51CF2F374004A7AAA /* RCTFXBlurViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		4F01A1A01CF2EEBF004A7AAA /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = FXBlurView/FXBlurView/FXBlurView.m; sourceTree = "<group>"; };
 		4F01A1A21CF2EFCD004A7AAA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		4F01A1A41CF2EFD4004A7AAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4F01A1D41CF2F374004A7AAA /* RCTFXBlurViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTFXBlurViewManager.h; sourceTree = "<group>"; };
+		4F01A1D51CF2F374004A7AAA /* RCTFXBlurViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTFXBlurViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 		4F01A1941CF2EE7B004A7AAA /* RCTFXBlurView */ = {
 			isa = PBXGroup;
 			children = (
+				4F01A1D41CF2F374004A7AAA /* RCTFXBlurViewManager.h */,
+				4F01A1D51CF2F374004A7AAA /* RCTFXBlurViewManager.m */,
 				4F01A1951CF2EE7B004A7AAA /* RCTFXBlurView.h */,
 				4F01A1971CF2EE7B004A7AAA /* RCTFXBlurView.m */,
 			);
@@ -145,6 +150,7 @@
 			files = (
 				4F01A1981CF2EE7B004A7AAA /* RCTFXBlurView.m in Sources */,
 				4F01A1A11CF2EEBF004A7AAA /* FXBlurView.m in Sources */,
+				4F01A1D61CF2F374004A7AAA /* RCTFXBlurViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +284,7 @@
 				4F01A19D1CF2EE7B004A7AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

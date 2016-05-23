@@ -22,38 +22,35 @@
     self.blurView.userInteractionEnabled = false;
     self.blurView.dynamic = NO;
   }
-  
+
   return self;
 }
 
 -(void)layoutSubviews
 {
   [super layoutSubviews];
-  
-  self.blurView.frame = self.bounds;
+
+  if (self.blurView.blurEnabled) {
+    self.blurView.frame = self.bounds;
+    [self insertSubview:self.blurView atIndex:self.subviews.count];
+    [self setNeedsDisplay];
+  } else {
+    [self.blurView removeFromSuperview];
+  }
 }
 
 #pragma mark - Prop setters
 
 - (void)setBlurRadius:(float)blurRadius
 {
-  [UIView animateWithDuration:0.5 animations:^{
-    self.blurView.blurRadius = blurRadius;
-    [self setNeedsDisplay];
-  }];
+  self.blurView.blurRadius = blurRadius;
+  [self layoutSubviews];
 }
 
 - (void)setBlurEnabled:(BOOL)blurEnabled
 {
   self.blurView.blurEnabled = blurEnabled;
-  
-  if (blurEnabled) {
-    [self insertSubview:self.blurView atIndex:self.subviews.count];
-  } else {
-   [self.blurView removeFromSuperview];
-  }
-  
-  [self setNeedsDisplay];
+  [self layoutSubviews];
 }
 
 @end
