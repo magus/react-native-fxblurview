@@ -9,11 +9,11 @@ class FXBlurView extends Component {
       <FXBlurViewNative
         {...this.props}
         style={[
-          this.props.style,
           {
             flex: 1,
             backgroundColor: 'transparent',
           },
+          this.props.style,
         ]} />
     );
   }
