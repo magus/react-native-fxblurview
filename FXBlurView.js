@@ -20,8 +20,8 @@ class FXBlurView extends Component {
 }
 
 FXBlurView.propTypes = {
-  blurRadius: React.PropTypes.number.isRequired,
-  blurEnabled: React.PropTypes.bool.isRequired,
+  blurRadius: React.PropTypes.number,
+  blurEnabled: React.PropTypes.bool,
 };
 
 const FXBlurViewNative = requireNativeComponent('RCTFXBlurView', FXBlurView);
