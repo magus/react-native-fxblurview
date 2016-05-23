@@ -15,6 +15,7 @@
     "react-native",
     "blur",
     "ui",
+    "component",
     "gaussian",
     "radius",
     "native",
@@ -25,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/magus/react-native-fxblurview/issues"
   },
-  "homepage": "https://github.com/magus/react-native-fxblurview#readme"
+  "homepage": "https://github.com/magus/react-native-fxblurview#readme",
+  "peerDependencies": {
+    "react-native": "^0.26.1"
+  }
 }
