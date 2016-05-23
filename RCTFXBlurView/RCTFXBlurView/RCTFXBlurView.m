@@ -30,13 +30,14 @@
 {
   [super layoutSubviews];
 
+  [self.blurView removeFromSuperview];
+
   if (self.blurView.blurEnabled) {
     self.blurView.frame = self.bounds;
     [self insertSubview:self.blurView atIndex:self.subviews.count];
-    [self setNeedsDisplay];
-  } else {
-    [self.blurView removeFromSuperview];
   }
+
+  [self.blurView updateAsynchronously:NO completion:NULL];
 }
 
 #pragma mark - Prop setters
@@ -44,12 +45,14 @@
 - (void)setBlurRadius:(float)blurRadius
 {
   self.blurView.blurRadius = blurRadius;
+
   [self layoutSubviews];
 }
 
 - (void)setBlurEnabled:(BOOL)blurEnabled
 {
   self.blurView.blurEnabled = blurEnabled;
+
   [self layoutSubviews];
 }
 
