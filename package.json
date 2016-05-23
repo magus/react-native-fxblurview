@@ -2,7 +2,7 @@
   "name": "react-native-fxblurview",
   "version": "1.0.0",
   "description": "react native ui component for controlled blur, based on popular FXBlurView library",
-  "main": "RCTFXBlurView.js",
+  "main": "FXBlurView.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
