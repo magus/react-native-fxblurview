@@ -27,6 +27,9 @@
     "url": "https://github.com/magus/react-native-fxblurview/issues"
   },
   "homepage": "https://github.com/magus/react-native-fxblurview#readme",
+  "devDependencies": {
+    "react-native": "^0.26.1"
+  },
   "peerDependencies": {
     "react-native": "^0.26.1"
   }
