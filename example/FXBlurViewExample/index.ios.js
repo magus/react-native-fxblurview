@@ -9,18 +9,29 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Image,
+  Dimensions,
 } from 'react-native';
 
 import FXBlurView from 'react-native-fxblurview'
+
+
+const {
+  width: DEVICE_WIDTH,
+  height: DEVICE_HEIGHT,
+} = Dimensions.get('window');
+
 
 class FXBlurViewExample extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      blurEnabled: false,
-      blurRadius: 0,
+      // blurEnabled: false,
+      // blurRadius: 0,
+      blurEnabled: true,
+      blurRadius: 10,
     };
   }
 
@@ -35,24 +46,30 @@ class FXBlurViewExample extends Component {
 
   render() {
     return (
-      <FXBlurView
-        blurRadius={this.state.blurRadius}
-        blurEnabled={this.state.blurEnabled}>
+      <View style={styles.container}>
 
-        <View style={styles.container}>
-          <Text style={styles.welcome}>
-            Welcome to React Native!
+        <FXBlurView
+          blurRadius={this.state.blurRadius}
+          blurEnabled={this.state.blurEnabled}
+          dynamic={true}
+          style={styles.container}>
+
+          <Image
+            source={require('./Tycho-Dive-C.png')}
+            resizeMode="contain" />
+
+        </FXBlurView>
+
+        <View style={styles.overlay}>
+          <Text style={styles.text}>
+            Tycho - Dive
           </Text>
-          <Text style={styles.instructions}>
-            To get started, edit index.ios.js
-          </Text>
-          <Text style={styles.instructions}>
-            Press Cmd+R to reload,{'\n'}
-            Cmd+D or shake for dev menu
+          <Text style={[styles.text, {fontSize: 14}]}>
+            { "Dive is the third album by the electronica artist Tycho. Released November 8, 2011 on Ghostly International." }
           </Text>
         </View>
 
-      </FXBlurView>
+      </View>
     );
   }
 }
@@ -62,17 +79,20 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'transparent',
   },
-  welcome: {
+  overlay: {
+    width: 320,
+
+    position: 'absolute',
+    top: 250,
+    left: (DEVICE_WIDTH / 2) - (320 / 2),
+  },
+  text: {
     fontSize: 20,
+    color: 'white',
     textAlign: 'center',
     margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
   },
 });
 
