@@ -56,4 +56,11 @@
   [self layoutSubviews];
 }
 
+- (void)setDynamic:(BOOL)dynamic
+{
+  self.blurView.dynamic = dynamic;
+
+  [self layoutSubviews];
+}
+
 @end

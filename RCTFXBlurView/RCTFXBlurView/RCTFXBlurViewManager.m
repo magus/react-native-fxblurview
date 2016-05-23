@@ -23,8 +23,9 @@ RCT_EXPORT_MODULE();
   return [[RCTFXBlurView alloc] init];
 }
 
-RCT_EXPORT_VIEW_PROPERTY(blurRadius, float)
-RCT_EXPORT_VIEW_PROPERTY(blurEnabled, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(blurRadius, float);
+RCT_EXPORT_VIEW_PROPERTY(blurEnabled, BOOL);
+RCT_EXPORT_VIEW_PROPERTY(dynamic, BOOL);
 
 - (dispatch_queue_t)methodQueue
 {
