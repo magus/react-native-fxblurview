@@ -1,9 +1,7 @@
-import { requireNativeComponent } from 'react-native';
-
 'use strict'
-import React, {
-  Component,
-} from 'react-native'
+import React, { Component } from 'react';
+import { View } from 'react-native';
+import { requireNativeComponent } from 'react-native';
 
 class FXBlurView extends Component {
   render() {
@@ -28,4 +26,4 @@ FXBlurView.propTypes = {
 
 const FXBlurViewNative = requireNativeComponent('RCTFXBlurView', FXBlurView);
 
-module.exports = FXBlurView;
+export default FXBlurView;
