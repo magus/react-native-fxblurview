@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1455697ECC2DF6C0564762F61655CECA /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5F4F3091580F38A58EE40498838055 /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F170488837E1BC6B25A9668E37DA232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */; };
+		3E9FE2EB5C6E67DAD379ED9F43071C3B /* FXBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4CDB32F3A5769862171CCC22CBD22 /* FXBlurView-dummy.m */; };
+		7F86FBE5B09E0DAE59D13E1E35F18588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */; };
+		8DE2569D29A47FF087153DD6ED31DC97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA155FAD2B4A1D3E0A07D3D02154CBA /* QuartzCore.framework */; };
+		A844F62C75B01FF47B8C4B775A58660A /* Pods-RCTFXBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 993F1AEE73A039235A3E6DA1E804C7E2 /* Pods-RCTFXBlurView-dummy.m */; };
+		E70230B3EA15A3A8784E2B90F1DC2357 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3618D65E145F1C60B0296063D4DE0B /* Accelerate.framework */; };
+		EB3774E0A0442180CE015AC70748DB21 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BCA0059405D5A296486D9F1EDBDF62 /* FXBlurView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DF67F25AF1B2F3F300B489AF0DC84F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17392667E38E4938ACA525E988BB433B;
+			remoteInfo = FXBlurView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		114BC437C20647FDEA06B91579F9FAC9 /* libPods-RCTFXBlurView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTFXBlurView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1484802149C134ED9E91FE7922CBAB82 /* Pods-RCTFXBlurView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCTFXBlurView.debug.xcconfig"; sourceTree = "<group>"; };
+		19F6936EB8E4FAA058351B238BDD275E /* Pods-RCTFXBlurView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCTFXBlurView.release.xcconfig"; sourceTree = "<group>"; };
+		1A5942E8297FA3C69E89199E82D05927 /* Pods-RCTFXBlurView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCTFXBlurView-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FA155FAD2B4A1D3E0A07D3D02154CBA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		1FA4CDB32F3A5769862171CCC22CBD22 /* FXBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FXBlurView-dummy.m"; sourceTree = "<group>"; };
+		2E5F4F3091580F38A58EE40498838055 /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = FXBlurView/FXBlurView.h; sourceTree = "<group>"; };
+		3B3618D65E145F1C60B0296063D4DE0B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C2B3B08A218AA52E362BCE0CA97727 /* Pods-RCTFXBlurView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCTFXBlurView-resources.sh"; sourceTree = "<group>"; };
+		95DF600FD753002B5EF6506FED3ECB94 /* FXBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FXBlurView-prefix.pch"; sourceTree = "<group>"; };
+		9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		993F1AEE73A039235A3E6DA1E804C7E2 /* Pods-RCTFXBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCTFXBlurView-dummy.m"; sourceTree = "<group>"; };
+		B0F3415A561F49AEDD7CD82618ACF03F /* libFXBlurView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFXBlurView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BCA0059405D5A296486D9F1EDBDF62 /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = FXBlurView/FXBlurView.m; sourceTree = "<group>"; };
+		C208FC0360A9B176D0B3599A11FD1C91 /* FXBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FXBlurView.xcconfig; sourceTree = "<group>"; };
+		EC9141F97332B9D8FF21BFD24F773F3A /* Pods-RCTFXBlurView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCTFXBlurView-frameworks.sh"; sourceTree = "<group>"; };
+		F69D825CF51E6315EB78F7BF777838FA /* Pods-RCTFXBlurView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCTFXBlurView-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C1C4E5FB49F11CA786C7809AD44ED0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F86FBE5B09E0DAE59D13E1E35F18588 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B6BA63A87BA0A419CE15877FA6E48A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70230B3EA15A3A8784E2B90F1DC2357 /* Accelerate.framework in Frameworks */,
+				2F170488837E1BC6B25A9668E37DA232 /* Foundation.framework in Frameworks */,
+				8DE2569D29A47FF087153DD6ED31DC97 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113D3824D5AADF4ACE313E9AC2727C5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76CA19E08D3E2FFDE570446625FC9BE5 /* FXBlurView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4988CF3CCD02D6281B6E1BAC9BCAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D37FEBCBF249BE762D3AD2471D57658 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC0360A9B176D0B3599A11FD1C91 /* FXBlurView.xcconfig */,
+				1FA4CDB32F3A5769862171CCC22CBD22 /* FXBlurView-dummy.m */,
+				95DF600FD753002B5EF6506FED3ECB94 /* FXBlurView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FXBlurView";
+			sourceTree = "<group>";
+		};
+		4CBD1348E11A2FB73989D6B6B19B5EEF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D83E5ADD2ED72D2076F274E479AB93F1 /* Pods-RCTFXBlurView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		76CA19E08D3E2FFDE570446625FC9BE5 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F4F3091580F38A58EE40498838055 /* FXBlurView.h */,
+				B1BCA0059405D5A296486D9F1EDBDF62 /* FXBlurView.m */,
+				2D37FEBCBF249BE762D3AD2471D57658 /* Support Files */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				113D3824D5AADF4ACE313E9AC2727C5C /* Pods */,
+				AD40D3203435CDD43E6E50DCF527FB26 /* Products */,
+				4CBD1348E11A2FB73989D6B6B19B5EEF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AD40D3203435CDD43E6E50DCF527FB26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0F3415A561F49AEDD7CD82618ACF03F /* libFXBlurView.a */,
+				114BC437C20647FDEA06B91579F9FAC9 /* libPods-RCTFXBlurView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83E5ADD2ED72D2076F274E479AB93F1 /* Pods-RCTFXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				F69D825CF51E6315EB78F7BF777838FA /* Pods-RCTFXBlurView-acknowledgements.markdown */,
+				1A5942E8297FA3C69E89199E82D05927 /* Pods-RCTFXBlurView-acknowledgements.plist */,
+				993F1AEE73A039235A3E6DA1E804C7E2 /* Pods-RCTFXBlurView-dummy.m */,
+				EC9141F97332B9D8FF21BFD24F773F3A /* Pods-RCTFXBlurView-frameworks.sh */,
+				94C2B3B08A218AA52E362BCE0CA97727 /* Pods-RCTFXBlurView-resources.sh */,
+				1484802149C134ED9E91FE7922CBAB82 /* Pods-RCTFXBlurView.debug.xcconfig */,
+				19F6936EB8E4FAA058351B238BDD275E /* Pods-RCTFXBlurView.release.xcconfig */,
+			);
+			name = "Pods-RCTFXBlurView";
+			path = "Target Support Files/Pods-RCTFXBlurView";
+			sourceTree = "<group>";
+		};
+		F6E4988CF3CCD02D6281B6E1BAC9BCAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B3618D65E145F1C60B0296063D4DE0B /* Accelerate.framework */,
+				9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */,
+				1FA155FAD2B4A1D3E0A07D3D02154CBA /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E1FF1281ED23B218E66B0EEA6EA2D49C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1455697ECC2DF6C0564762F61655CECA /* FXBlurView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17392667E38E4938ACA525E988BB433B /* FXBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C696658A2DAFD99DBCB7FDF9A1FE6D4 /* Build configuration list for PBXNativeTarget "FXBlurView" */;
+			buildPhases = (
+				7F0EF89CD9AEB6C9CE7FE1822BD25254 /* Sources */,
+				E9B6BA63A87BA0A419CE15877FA6E48A /* Frameworks */,
+				E1FF1281ED23B218E66B0EEA6EA2D49C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXBlurView;
+			productName = FXBlurView;
+			productReference = B0F3415A561F49AEDD7CD82618ACF03F /* libFXBlurView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51DEDED371DC1B435D2B65C021B271EA /* Pods-RCTFXBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9498C1821F4C72933D91C8E6920E5765 /* Build configuration list for PBXNativeTarget "Pods-RCTFXBlurView" */;
+			buildPhases = (
+				67B7623D1536FBD2241D5D8AC59AB39E /* Sources */,
+				7C1C4E5FB49F11CA786C7809AD44ED0B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				803A4F4B1A6FFB1257343E0E26A9FD14 /* PBXTargetDependency */,
+			);
+			name = "Pods-RCTFXBlurView";
+			productName = "Pods-RCTFXBlurView";
+			productReference = 114BC437C20647FDEA06B91579F9FAC9 /* libPods-RCTFXBlurView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AD40D3203435CDD43E6E50DCF527FB26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17392667E38E4938ACA525E988BB433B /* FXBlurView */,
+				51DEDED371DC1B435D2B65C021B271EA /* Pods-RCTFXBlurView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B7623D1536FBD2241D5D8AC59AB39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A844F62C75B01FF47B8C4B775A58660A /* Pods-RCTFXBlurView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0EF89CD9AEB6C9CE7FE1822BD25254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9FE2EB5C6E67DAD379ED9F43071C3B /* FXBlurView-dummy.m in Sources */,
+				EB3774E0A0442180CE015AC70748DB21 /* FXBlurView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		803A4F4B1A6FFB1257343E0E26A9FD14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FXBlurView;
+			target = 17392667E38E4938ACA525E988BB433B /* FXBlurView */;
+			targetProxy = 2DF67F25AF1B2F3F300B489AF0DC84F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00855F495526BFEF0B64EBA5FB6CC29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C208FC0360A9B176D0B3599A11FD1C91 /* FXBlurView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FXBlurView/FXBlurView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0BF93F9B75E86EB553C5FA4C40143C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C208FC0360A9B176D0B3599A11FD1C91 /* FXBlurView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FXBlurView/FXBlurView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1869E75AE98176F7F0D1BD9C1E991834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1484802149C134ED9E91FE7922CBAB82 /* Pods-RCTFXBlurView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7B8CCBB0AFD2F28B78C658052801FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F6936EB8E4FAA058351B238BDD275E /* Pods-RCTFXBlurView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C696658A2DAFD99DBCB7FDF9A1FE6D4 /* Build configuration list for PBXNativeTarget "FXBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF93F9B75E86EB553C5FA4C40143C42 /* Debug */,
+				00855F495526BFEF0B64EBA5FB6CC29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9498C1821F4C72933D91C8E6920E5765 /* Build configuration list for PBXNativeTarget "Pods-RCTFXBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1869E75AE98176F7F0D1BD9C1E991834 /* Debug */,
+				B7B8CCBB0AFD2F28B78C658052801FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
