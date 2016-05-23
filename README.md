@@ -4,4 +4,4 @@ react native ui component for controlled blur, based on popular FXBlurView libra
 https://github.com/nicklockwood/FXBlurView
 
 ## install
-- `rnpm install react-native-fxblurview`
+`rnpm install react-native-fxblurview`
