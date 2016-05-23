@@ -12,21 +12,47 @@ import {
   View
 } from 'react-native';
 
+import FXBlurView from 'react-native-fxblurview'
+
 class FXBlurViewExample extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      blurEnabled: false,
+      blurRadius: 0,
+    };
+  }
+
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({
+        blurEnabled: !this.state.blurEnabled,
+        blurRadius: this.state.blurRadius + 1,
+      })
+    }, 1000)
+  }
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      <FXBlurView
+        blurRadius={this.state.blurRadius}
+        blurEnabled={this.state.blurEnabled}>
+
+        <View style={styles.container}>
+          <Text style={styles.welcome}>
+            Welcome to React Native!
+          </Text>
+          <Text style={styles.instructions}>
+            To get started, edit index.ios.js
+          </Text>
+          <Text style={styles.instructions}>
+            Press Cmd+R to reload,{'\n'}
+            Cmd+D or shake for dev menu
+          </Text>
+        </View>
+
+      </FXBlurView>
     );
   }
 }
