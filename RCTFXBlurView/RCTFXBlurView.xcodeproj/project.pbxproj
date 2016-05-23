@@ -7,104 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F1F87171CF2E8D400D5B024 /* RCTFXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F87161CF2E8D400D5B024 /* RCTFXBlurView.m */; };
-		4F1F871A1CF2E92400D5B024 /* RCTFXBlurViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F87191CF2E92400D5B024 /* RCTFXBlurViewManager.m */; };
-		DD5609C7C12642F7B6331F4A /* libPods-RCTFXBlurView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E03D4F01E0E682333A1574 /* libPods-RCTFXBlurView.a */; };
+		4F01A1961CF2EE7B004A7AAA /* RCTFXBlurView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F01A1951CF2EE7B004A7AAA /* RCTFXBlurView.h */; };
+		4F01A1981CF2EE7B004A7AAA /* RCTFXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F01A1971CF2EE7B004A7AAA /* RCTFXBlurView.m */; };
+		4F01A1A11CF2EEBF004A7AAA /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F01A1A01CF2EEBF004A7AAA /* FXBlurView.m */; };
+		4F01A1A31CF2EFCD004A7AAA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F01A1A21CF2EFCD004A7AAA /* Accelerate.framework */; };
+		4F01A1A51CF2EFD4004A7AAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F01A1A41CF2EFD4004A7AAA /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4F8E4DBE1CF2DEEA006C7CD6 /* CopyFiles */ = {
+		4F01A1901CF2EE7B004A7AAA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				4F01A1961CF2EE7B004A7AAA /* RCTFXBlurView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04E03D4F01E0E682333A1574 /* libPods-RCTFXBlurView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTFXBlurView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F1F87151CF2E8D400D5B024 /* RCTFXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTFXBlurView.h; sourceTree = "<group>"; };
-		4F1F87161CF2E8D400D5B024 /* RCTFXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTFXBlurView.m; sourceTree = "<group>"; };
-		4F1F87181CF2E92400D5B024 /* RCTFXBlurViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTFXBlurViewManager.h; sourceTree = "<group>"; };
-		4F1F87191CF2E92400D5B024 /* RCTFXBlurViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTFXBlurViewManager.m; sourceTree = "<group>"; };
-		4F8E4DC01CF2DEEA006C7CD6 /* libRCTFXBlurView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTFXBlurView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		767ADD67C0413265EFA2BEDD /* Pods-RCTFXBlurView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTFXBlurView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCTFXBlurView/Pods-RCTFXBlurView.debug.xcconfig"; sourceTree = "<group>"; };
-		9244A5CE17D1FF0516FF3592 /* Pods-RCTFXBlurView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTFXBlurView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCTFXBlurView/Pods-RCTFXBlurView.release.xcconfig"; sourceTree = "<group>"; };
+		4F01A1921CF2EE7B004A7AAA /* libRCTFXBlurView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTFXBlurView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F01A1951CF2EE7B004A7AAA /* RCTFXBlurView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTFXBlurView.h; sourceTree = "<group>"; };
+		4F01A1971CF2EE7B004A7AAA /* RCTFXBlurView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTFXBlurView.m; sourceTree = "<group>"; };
+		4F01A19F1CF2EEBF004A7AAA /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = FXBlurView/FXBlurView/FXBlurView.h; sourceTree = "<group>"; };
+		4F01A1A01CF2EEBF004A7AAA /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = FXBlurView/FXBlurView/FXBlurView.m; sourceTree = "<group>"; };
+		4F01A1A21CF2EFCD004A7AAA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4F01A1A41CF2EFD4004A7AAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F8E4DBD1CF2DEEA006C7CD6 /* Frameworks */ = {
+		4F01A18F1CF2EE7B004A7AAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5609C7C12642F7B6331F4A /* libPods-RCTFXBlurView.a in Frameworks */,
+				4F01A1A51CF2EFD4004A7AAA /* QuartzCore.framework in Frameworks */,
+				4F01A1A31CF2EFCD004A7AAA /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2821A1D550EEDD3C5FF9F53D /* Frameworks */ = {
+		4F01A1891CF2EE7B004A7AAA = {
 			isa = PBXGroup;
 			children = (
-				04E03D4F01E0E682333A1574 /* libPods-RCTFXBlurView.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		492EFF2A4A532FF7A5ACBC47 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				767ADD67C0413265EFA2BEDD /* Pods-RCTFXBlurView.debug.xcconfig */,
-				9244A5CE17D1FF0516FF3592 /* Pods-RCTFXBlurView.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		4F8E4DB71CF2DEEA006C7CD6 = {
-			isa = PBXGroup;
-			children = (
-				4F8E4DC21CF2DEEA006C7CD6 /* RCTFXBlurView */,
-				4F8E4DC11CF2DEEA006C7CD6 /* Products */,
-				492EFF2A4A532FF7A5ACBC47 /* Pods */,
-				2821A1D550EEDD3C5FF9F53D /* Frameworks */,
+				4F01A1A41CF2EFD4004A7AAA /* QuartzCore.framework */,
+				4F01A1A21CF2EFCD004A7AAA /* Accelerate.framework */,
+				4F01A19E1CF2EEAE004A7AAA /* FXBlurView */,
+				4F01A1941CF2EE7B004A7AAA /* RCTFXBlurView */,
+				4F01A1931CF2EE7B004A7AAA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F8E4DC11CF2DEEA006C7CD6 /* Products */ = {
+		4F01A1931CF2EE7B004A7AAA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F8E4DC01CF2DEEA006C7CD6 /* libRCTFXBlurView.a */,
+				4F01A1921CF2EE7B004A7AAA /* libRCTFXBlurView.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F8E4DC21CF2DEEA006C7CD6 /* RCTFXBlurView */ = {
+		4F01A1941CF2EE7B004A7AAA /* RCTFXBlurView */ = {
 			isa = PBXGroup;
 			children = (
-				4F1F87181CF2E92400D5B024 /* RCTFXBlurViewManager.h */,
-				4F1F87191CF2E92400D5B024 /* RCTFXBlurViewManager.m */,
-				4F1F87151CF2E8D400D5B024 /* RCTFXBlurView.h */,
-				4F1F87161CF2E8D400D5B024 /* RCTFXBlurView.m */,
+				4F01A1951CF2EE7B004A7AAA /* RCTFXBlurView.h */,
+				4F01A1971CF2EE7B004A7AAA /* RCTFXBlurView.m */,
 			);
 			path = RCTFXBlurView;
+			sourceTree = "<group>";
+		};
+		4F01A19E1CF2EEAE004A7AAA /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				4F01A19F1CF2EEBF004A7AAA /* FXBlurView.h */,
+				4F01A1A01CF2EEBF004A7AAA /* FXBlurView.m */,
+			);
+			name = FXBlurView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F8E4DBF1CF2DEEA006C7CD6 /* RCTFXBlurView */ = {
+		4F01A1911CF2EE7B004A7AAA /* RCTFXBlurView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F8E4DC91CF2DEEA006C7CD6 /* Build configuration list for PBXNativeTarget "RCTFXBlurView" */;
+			buildConfigurationList = 4F01A19B1CF2EE7B004A7AAA /* Build configuration list for PBXNativeTarget "RCTFXBlurView" */;
 			buildPhases = (
-				2895C8FD36E73ABE645BCE6A /* 📦 Check Pods Manifest.lock */,
-				4F8E4DBC1CF2DEEA006C7CD6 /* Sources */,
-				4F8E4DBD1CF2DEEA006C7CD6 /* Frameworks */,
-				4F8E4DBE1CF2DEEA006C7CD6 /* CopyFiles */,
-				4A39A5E46F88C89EBF82D742 /* 📦 Copy Pods Resources */,
+				4F01A18E1CF2EE7B004A7AAA /* Sources */,
+				4F01A18F1CF2EE7B004A7AAA /* Frameworks */,
+				4F01A1901CF2EE7B004A7AAA /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -112,87 +104,54 @@
 			);
 			name = RCTFXBlurView;
 			productName = RCTFXBlurView;
-			productReference = 4F8E4DC01CF2DEEA006C7CD6 /* libRCTFXBlurView.a */;
+			productReference = 4F01A1921CF2EE7B004A7AAA /* libRCTFXBlurView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F8E4DB81CF2DEEA006C7CD6 /* Project object */ = {
+		4F01A18A1CF2EE7B004A7AAA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = magus;
 				TargetAttributes = {
-					4F8E4DBF1CF2DEEA006C7CD6 = {
+					4F01A1911CF2EE7B004A7AAA = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 4F8E4DBB1CF2DEEA006C7CD6 /* Build configuration list for PBXProject "RCTFXBlurView" */;
+			buildConfigurationList = 4F01A18D1CF2EE7B004A7AAA /* Build configuration list for PBXProject "RCTFXBlurView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4F8E4DB71CF2DEEA006C7CD6;
-			productRefGroup = 4F8E4DC11CF2DEEA006C7CD6 /* Products */;
+			mainGroup = 4F01A1891CF2EE7B004A7AAA;
+			productRefGroup = 4F01A1931CF2EE7B004A7AAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F8E4DBF1CF2DEEA006C7CD6 /* RCTFXBlurView */,
+				4F01A1911CF2EE7B004A7AAA /* RCTFXBlurView */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2895C8FD36E73ABE645BCE6A /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		4A39A5E46F88C89EBF82D742 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCTFXBlurView/Pods-RCTFXBlurView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		4F8E4DBC1CF2DEEA006C7CD6 /* Sources */ = {
+		4F01A18E1CF2EE7B004A7AAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1F87171CF2E8D400D5B024 /* RCTFXBlurView.m in Sources */,
-				4F1F871A1CF2E92400D5B024 /* RCTFXBlurViewManager.m in Sources */,
+				4F01A1981CF2EE7B004A7AAA /* RCTFXBlurView.m in Sources */,
+				4F01A1A11CF2EEBF004A7AAA /* FXBlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4F8E4DC71CF2DEEA006C7CD6 /* Debug */ = {
+		4F01A1991CF2EE7B004A7AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +195,7 @@
 			};
 			name = Debug;
 		};
-		4F8E4DC81CF2DEEA006C7CD6 /* Release */ = {
+		4F01A19A1CF2EE7B004A7AAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,14 +233,12 @@
 			};
 			name = Release;
 		};
-		4F8E4DCA1CF2DEEA006C7CD6 /* Debug */ = {
+		4F01A19C1CF2EE7B004A7AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 767ADD67C0413265EFA2BEDD /* Pods-RCTFXBlurView.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,14 +246,12 @@
 			};
 			name = Debug;
 		};
-		4F8E4DCB1CF2DEEA006C7CD6 /* Release */ = {
+		4F01A19D1CF2EE7B004A7AAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9244A5CE17D1FF0516FF3592 /* Pods-RCTFXBlurView.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,25 +262,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F8E4DBB1CF2DEEA006C7CD6 /* Build configuration list for PBXProject "RCTFXBlurView" */ = {
+		4F01A18D1CF2EE7B004A7AAA /* Build configuration list for PBXProject "RCTFXBlurView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F8E4DC71CF2DEEA006C7CD6 /* Debug */,
-				4F8E4DC81CF2DEEA006C7CD6 /* Release */,
+				4F01A1991CF2EE7B004A7AAA /* Debug */,
+				4F01A19A1CF2EE7B004A7AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F8E4DC91CF2DEEA006C7CD6 /* Build configuration list for PBXNativeTarget "RCTFXBlurView" */ = {
+		4F01A19B1CF2EE7B004A7AAA /* Build configuration list for PBXNativeTarget "RCTFXBlurView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F8E4DCA1CF2DEEA006C7CD6 /* Debug */,
-				4F8E4DCB1CF2DEEA006C7CD6 /* Release */,
+				4F01A19C1CF2EE7B004A7AAA /* Debug */,
+				4F01A19D1CF2EE7B004A7AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F8E4DB81CF2DEEA006C7CD6 /* Project object */;
+	rootObject = 4F01A18A1CF2EE7B004A7AAA /* Project object */;
 }
